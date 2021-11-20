@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Добавление сотрудников</title>
+</head>
+
+<body>
+  <header>
+    <h1>Добавление сотрудников</h1>
+    <a href="index.html">
+      <p class="nameCompany">Название организации</p>
+    </a>
+  </header>
+  <section>
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+      <span class="first"></span>
+      <span class="second"></span>
+      <span class="third"></span>
+    </label>
+    <ul class="hidden-menu">
+      <div class="catside">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="Add an employee.html">Сотрудники</a></li>
+        <li><a href="Office.html">Офис</a></li>
+      </div>
+    </ul>
+  </section>
+  <section class="container">
+    <table class="tb_form" height="600px" wigth="700px">
+      <form action="#" method="get">
+        <tr>
+          <td>ФИО</td>
+          <td><input placeholder="ФИО" tabindex="1" name="name" type="text" /></td>
+        </tr>
+        <tr>
+          <td>Дата рождения</td>
+          <td><input tabindex="2" name="dayBirth" type="date" /></td>
+        </tr>
+        <tr>
+          <td>Стаж работы</td>
+          <td><input placeholder="2 года" tabindex="3" name="experience" type="text" /></td>
+        </tr>
+        <tr>
+          <td>Пол</td>
+          <td><input class="gender" tabindex="4" checked type="radio" name="gender" value="male" />Мужской
+            <input class="gender" tabindex="4" type="radio" name="gender" value="female" />Женский
+          </td>
+        </tr>
+        <tr>
+          <td>Дата приёма</td>
+          <td><input tabindex="5" name="employment" type="date" /></td>
+        </tr>
+        <tr>
+          <td>Телефон сотрудника</td>
+          <td><input tabindex="6" checked type="tel" name="phone" /></td>
+        </tr>
+        <tr>
+          <td>Заработная плата</td>
+          <td><input tabindex="7" checked type="number" name="salary" /></td>
+        </tr>
+        <tr>
+          <td>Офис</td>
+          <td><input tabindex="8" name="office" type="text" /></td>
+        </tr>
+        <tr>
+          <td>Сфера деятельности</td>
+          <td><input tabindex="9" name="lineOfBusiness" type="text" /></td>
+        </tr>
+        <tr>
+          <td>Должность</td>
+          <td><input tabindex="10" name="position" type="text" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><button class="add" type="submit">Добавить</button></td>
+        </tr>
+      </form>
+    </table>
+  </section>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
