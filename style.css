@@ -115,13 +115,11 @@ textarea {
   height: auto;
 }
 .hidden-menu {
-  
   list-style:none;
   padding: 10px 0 10px;
   box-sizing: border-box;
-  display: flex;
-  position: relative;
-  min-height: calc(100vh - 150px);
+  display: block;
+  position: absolute;
   width: 200px;
   height: 100%;
   background-color:rgb(235,197,98,0.3);
